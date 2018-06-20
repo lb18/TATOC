@@ -1,23 +1,21 @@
-package assignment;
+package test;
+
 import java.util.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class Implementation
 {
-	 //WebDriver driver = new FirefoxDriver();
+	 private WebDriver driver = new ChromeDriver();
 	
 	Implementation()
 	{
-		System.setProperty("webdriver.firefox.marionette","/root/Downloads/geckodriver");
-		WebDriver driver = new FirefoxDriver();
 		driver.get("http://10.0.1.86/tatoc");
 	}
-	WebDriver driver = new FirefoxDriver();
 	
 	void error_Page()
 	{
@@ -60,9 +58,14 @@ public class Implementation
 	{
 		WebElement from = driver.findElement(By.id("dragbox"));
 		WebElement to = driver.findElement(By.id("dropbox"));
+		System.out.println(from);
+		System.out.println(to);
+		//[[ChromeDriver: chrome on XP (143fee9ec87e454f2b9ed7e52c338be4)] -> id: dragbox]
+		//[[ChromeDriver: chrome on XP (143fee9ec87e454f2b9ed7e52c338be4)] -> id: dropbox]
+
 		// to check if two objects are equal
-		if (from.equals(to)) driver.findElement(By.linkText("Proceed")).click();
-		else error_Page();
+		/*if (from.equals(to))*/ driver.findElement(By.linkText("Proceed")).click();
+		//else error_Page();
 
 	}
 	public void automate_Task_Drag_Around()
