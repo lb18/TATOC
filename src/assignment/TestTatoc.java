@@ -50,6 +50,12 @@ public class TestTatoc extends Implementation
 		assertEquals(driver.getCurrentUrl(), "http://10.0.1.86/tatoc/end");
 	}
 	
+	@AfterClass
+	public void closeBrowser()
+	{
+		driver.quit();
+	}
+	
 	// test for checking the flow of execution of methods in Implementation class
 	@Test(priority = 1) 
 	void test_page1() {automate_Task_GridGate();}
