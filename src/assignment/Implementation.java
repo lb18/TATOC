@@ -57,8 +57,6 @@ public class Implementation
 	{
 		WebElement from = driver.findElement(By.id("dragbox"));
 		WebElement to = driver.findElement(By.id("dropbox"));
-		System.out.println(from);
-		System.out.println(to);
 		driver.findElement(By.linkText("Proceed")).click();
 	}
 	
