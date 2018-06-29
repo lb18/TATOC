@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9932" started-at="2018-06-29T04:42:15Z" finished-at="2018-06-29T04:42:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9932" started-at="2018-06-29T04:42:15Z" finished-at="2018-06-29T04:42:25Z">
+      <class name="assignment.TestTatoc">
+        <test-method status="PASS" signature="test_Grid_Gate()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="test_Grid_Gate" duration-ms="662" started-at="2018-06-29T04:42:15Z" finished-at="2018-06-29T04:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Grid_Gate -->
+        <test-method status="PASS" signature="test_Frame_Dungeon()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="test_Frame_Dungeon" duration-ms="1324" started-at="2018-06-29T04:42:16Z" depends-on-methods="assignment.TestTatoc.test_Grid_Gate" finished-at="2018-06-29T04:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Frame_Dungeon -->
+        <test-method status="PASS" signature="test_Task_Drag_Around()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="test_Task_Drag_Around" duration-ms="284" started-at="2018-06-29T04:42:17Z" depends-on-methods="assignment.TestTatoc.test_Frame_Dungeon" finished-at="2018-06-29T04:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Task_Drag_Around -->
+        <test-method status="PASS" signature="test_Task_Popup_Windows()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="test_Task_Popup_Windows" duration-ms="1474" started-at="2018-06-29T04:42:17Z" depends-on-methods="assignment.TestTatoc.test_Task_Drag_Around" finished-at="2018-06-29T04:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Task_Popup_Windows -->
+        <test-method status="PASS" signature="test_Task_Cookie_Handling()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="test_Task_Cookie_Handling" duration-ms="211" started-at="2018-06-29T04:42:19Z" depends-on-methods="assignment.TestTatoc.test_Task_Popup_Windows" finished-at="2018-06-29T04:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Task_Cookie_Handling -->
+        <test-method status="PASS" signature="test_page1()[pri:1, instance:assignment.TestTatoc@791d1f8b]" name="test_page1" duration-ms="389" started-at="2018-06-29T04:42:19Z" finished-at="2018-06-29T04:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_page1 -->
+        <test-method status="PASS" signature="test_page2()[pri:2, instance:assignment.TestTatoc@791d1f8b]" name="test_page2" duration-ms="3083" started-at="2018-06-29T04:42:19Z" finished-at="2018-06-29T04:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_page2 -->
+        <test-method status="PASS" signature="test_page3()[pri:3, instance:assignment.TestTatoc@791d1f8b]" name="test_page3" duration-ms="223" started-at="2018-06-29T04:42:22Z" finished-at="2018-06-29T04:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_page3 -->
+        <test-method status="PASS" signature="test_page4()[pri:4, instance:assignment.TestTatoc@791d1f8b]" name="test_page4" duration-ms="1406" started-at="2018-06-29T04:42:23Z" finished-at="2018-06-29T04:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_page4 -->
+        <test-method status="PASS" signature="test_page5()[pri:5, instance:assignment.TestTatoc@791d1f8b]" name="test_page5" duration-ms="195" started-at="2018-06-29T04:42:24Z" finished-at="2018-06-29T04:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_page5 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assignment.TestTatoc@791d1f8b]" name="closeBrowser" is-config="true" duration-ms="637" started-at="2018-06-29T04:42:24Z" finished-at="2018-06-29T04:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assignment.TestTatoc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
